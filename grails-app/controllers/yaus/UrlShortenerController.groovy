@@ -10,6 +10,10 @@ class UrlShortenerController {
 
 	def urlShortenerService
 
+    public shortUrlWithDomain() {
+        def shortUrl = urlShortenerService.shortUrlWithDomain(params.longUrl)
+        render(view:'/urlShortener', model:[shortUrl: shortUrl])
+    }
     
     public redirectToLongUrlFrom() {
         def longUrl = urlShortenerService.findLongUrlBy(params.shortUrl)
@@ -19,11 +23,5 @@ class UrlShortenerController {
         } else {
             response.status = 404
         }
-    }
-
-    public shortUrlWithDomain() {
-        def shortUrl = urlShortenerService.shortUrlWithDomain(params.longUrl)
-        render(view:'/urlShortener', model:[shortUrl: shortUrl])
-    }
-   
+    }   
 }

@@ -1,0 +1,30 @@
+.formulario {
+	margin: auto;
+	width: 400px;
+	margin-bottom: 25px;
+}
+
+.submitButton {
+	height: 32px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: #FF8C00 2px solid;
+	color: #333;
+	line-height: 32px;
+	font-size: 18px;
+	font-weight: bold;
+
+	display: block;
+	margin: auto;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	width:120px;
+}
+
+
+input {
+	width:373px; border:3px solid #FF8C00; height:30px;
+	border-radius:8px 8px 8px 8px;-moz-border-radius: 8px;-webkit-border-radius: 8px; font-size:14px; color:#8d9295; font-weight:bold;
+	
+}

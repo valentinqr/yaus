@@ -7,7 +7,8 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/"(view:"/urlShortener")
         "500"(view:'/error')
+        "404"(view:'/error')
 	}
 }
