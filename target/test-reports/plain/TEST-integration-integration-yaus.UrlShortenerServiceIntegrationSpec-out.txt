@@ -1,5 +1,0 @@
---Output from test can short a long url--
---Output from test can generate the complete short url--
---Output from test can short a previous shorted url--
---Output from test can short a previous shorted url with domain--
---Output from test can return the long url associated with a short url--
