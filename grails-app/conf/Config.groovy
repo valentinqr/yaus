@@ -119,3 +119,5 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+domainName = "http://my-yaus.com/"

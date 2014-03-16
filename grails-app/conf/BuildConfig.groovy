@@ -47,6 +47,7 @@ grails.project.dependency.resolution = {
     }
 
     dependencies {
+        test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         // runtime 'mysql:mysql-connector-java:5.1.27'
         // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'

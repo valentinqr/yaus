@@ -1,0 +1,22 @@
+Testsuite: yaus.UrlShortenerServiceIntegrationSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0,495 sec
+------------- Standard Output ---------------
+--Output from test can short a long url--
+--Output from test can generate the complete short url--
+--Output from test can short a previous shorted url--
+--Output from test can short a previous shorted url with domain--
+--Output from test can return the long url associated with a short url--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test can short a long url--
+--Output from test can generate the complete short url--
+--Output from test can short a previous shorted url--
+--Output from test can short a previous shorted url with domain--
+--Output from test can return the long url associated with a short url--
+------------- ---------------- ---------------
+
+Testcase: test can short a long url took 0,428 sec
+Testcase: test can generate the complete short url took 0,015 sec
+Testcase: test can short a previous shorted url took 0,02 sec
+Testcase: test can short a previous shorted url with domain took 0,013 sec
+Testcase: test can return the long url associated with a short url took 0,017 sec
